@@ -27,12 +27,6 @@ public class MainActivity extends Activity {
                 Toast.makeText(MainActivity.this,"第一次提交",Toast.LENGTH_SHORT).show();
             }
         });
-        findViewById(R.id.tv_send_two).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"第二次提交。。",Toast.LENGTH_SHORT).show();
-            }
-        });
 
     }
 }

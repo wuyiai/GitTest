@@ -34,5 +34,13 @@ public class MainActivity extends Activity {
             }
         });
 
+        findViewById(R.id.tv_send_three).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"第三次提交。。",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
     }
 }
